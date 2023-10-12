@@ -1,0 +1,105 @@
+body{
+    background-color: #2F1893 ; 
+    padding: 0px 20px;
+}
+.nav-con{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 50px 40px;
+    align-items: center;
+}
+#startup{
+    font-size: 25px;
+}
+.nav-links{
+     display:flex;
+     flex-direction: row;
+     gap: 40px;
+     font-size: 18px;
+     align-items: center;
+}
+#overview{
+     opacity: 0.5;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-con button{
+    border: none;
+    background-color: #E93A7D;
+    padding: 10px 25px;
+    font-size: 15px;
+    border-radius: 20px;
+    color: white;
+}
+.form-con{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    padding: 20px 300px; 
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    width: 300px;
+    font-size: 25px;
+}
+.para h1{
+     font-size: 45px; 
+}
+.para button{
+    margin-top: 30px;
+    border: none;
+    width: 200px;
+    background-color: #E93A7D;
+    padding: 10px 0px;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+}
+.form{
+    padding: 20px 50px;
+    width: 350px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+}
+.form input{
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    width: 250px;
+    opacity: 0.5;
+     
+}
+.form button{
+    color: white;
+    background-color: #482BE7;
+    border-radius: 30PX;
+    padding: 12px;
+    border: 1px solid grey;
+    width: 250px;
+    border: none;
+    font-size: 18px;
+}
+#twitter{
+    background-color: #1AD1F2;
+    border:none;
+}
+
+.sign-in{
+    padding: 10px;
+}
+.sign-in a{
+    text-decoration: none;
+    color: #32DCC9;
+}
+
